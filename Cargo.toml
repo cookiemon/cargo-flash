@@ -1,0 +1,12 @@
+[package]
+name = "cargo-flash"
+version = "0.1.0"
+authors = ["Cookiemon"]
+edition = "2018"
+
+description = "Minimalistic hackish extension to cargo to flash binary images onto microcontrollers."
+license = "MIT or Apache-2.0"
+
+[dependencies]
+cargo_metadata = "0.9"
+serde_json = "1.0"
